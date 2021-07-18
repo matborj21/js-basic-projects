@@ -25,3 +25,36 @@ body {
     margin: 0 auto;
     height: 100vh;
 }
+
+.text {
+    color: #1d1c1c;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 5rem;
+}
+
+.text h2 {
+    margin-bottom: 20px;
+    font-size: 5rem;
+}
+
+.btn {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: turquoise;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: turquoise;
+    background-color: white;
+}
+
+.btn:last-child {
+    padding-right: 30px;
+    padding-left: 30px;
+}
