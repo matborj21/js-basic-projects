@@ -17,13 +17,13 @@ body {
     min-height: 100vh;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    background: linear-gradient(to right, rgb(30, 171, 225), rgb(12, 243, 180));
 }
 
 .container {
     margin: 0 auto;
     width: 80%;
     padding: 0 1.925rem;
-    /* background-color: pink; */
 }
 
 nav {
@@ -55,7 +55,7 @@ img {
     padding: 30px;
     width: 700px;
     background-color: #f2f2f2;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 5px 5px 1px rgba(59, 58, 58, 0.3);
 }
 
@@ -93,7 +93,7 @@ img {
 }
 
 .reviews .text>H3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgba(20, 104, 182, 0.8);
     text-transform: capitalize;
     margin-bottom: 5px;
@@ -101,12 +101,14 @@ img {
 }
 
 .text>span {
+    font-size: 0.88rem;
     color: rgba(20, 104, 182, 0.7);
     margin-top: -20px;
     text-transform: capitalize;
 }
 
 .text>P {
+    font-size: 1.05em;
     color: rgba(59, 58, 58, 0.8);
 }
 
